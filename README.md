@@ -32,30 +32,30 @@ This project analyzes the effectiveness of ad campaigns versus public service an
 ## EDA
 
 ### 1. Overall Conversion Rate: Ad vs PSA
-![Overall Conversion Rate: Ad vs PSA](image/Overall_Conversion_Rate_Ad_vs_PSA.png)
+![Overall Conversion Rate: Ad vs PSA](image/Overall%20Conversion%20Rate%20Ad%20vs%20PSA.png)
 
 **Insight:** The ad group shows a higher overall conversion rate (2.55%) compared to the PSA group (1.79%), a difference of 0.76 percentage points.
 
 ---
 
 ### 2. Conversion Rate by Day of Week
-![Conversion Rate by Day of Week](image/Conversion_Rate_by_Day_of_Week_Ad_vs_PSA.png)
+![Conversion Rate by Day of Week](image/Conversion%20Rate%20by%20Day%20of%20Week%20Ad%20vs%20PSA.png)
 
 **Insight:** Monday shows the highest conversion rate for both groups (Ad: 3.32%, PSA: 2.26%). Saturday consistently shows the lowest conversion rates. The ad group outperforms PSA on every day of the week.
 
 ---
 
 ### 3. Conversion Rate by Hour of Day
-![Conversion Rate by Hour of Day](image/Conversion_Rate_by_Hour_of_Day_Ad_vs_PSA.png)
+![Conversion Rate by Hour of Day](image/Conversion%20Rate%20by%20Hour%20of%20Day%20Ad%20vs%20PSA.png)
 
 **Insight:** Conversion rates peak between 3 PM–4 PM (15:00–16:00) for both groups. The ad group maintains consistently higher conversion rates throughout the day. PSA conversion rates drop near zero during early morning hours (12 AM–6 AM) due to low sample size.
 
 ---
 
 ### 4. Conversion Rate by Ad Exposure
-![Conversion Rate by Ad Exposure](image/Conversion_Rate_by_Ad_Exposure.png)
+![Conversion Rate by Ad Exposure](image/Conversion%20Rate%20by%20Ad%20Exposure.png)
 
-![Conversion Rate by Ad Exposure Table](image/Conversion_Rate_by_Ad_Exposure_Table.png)
+![Conversion Rate by Ad Exposure Table](image/Conversion%20Rate%20by%20Ad%20Exposure%20Table.png)
 
 **Insight:** Conversion rates increase sharply once users are exposed to 51+ ads. This suggests a frequency threshold effect — users need sufficient ad exposure before converting. The ad group shows a stronger lift from increased exposure compared to PSA.
 
@@ -63,7 +63,7 @@ This project analyzes the effectiveness of ad campaigns versus public service an
 
 ## A/B Test Results
 
-![Conversion Rate: Ad vs PSA](image/Conversion_Rate_Ad_vs_PSA.png)
+![Conversion Rate: Ad vs PSA](image/Conversion%20Rate%20Ad%20vs%20PSA.png)
 
 ```
 H₀: No significant difference in conversion rates between ad and PSA groups
@@ -85,3 +85,4 @@ The ad campaign produces a statistically significant higher conversion rate than
 2. **Focus ad spend on Mondays** — Monday consistently shows the highest conversion rates for both groups (Ad: 3.32%).
 3. **Schedule ads between 3 PM–4 PM** — Peak conversion hours across both groups.
 4. **Increase ad frequency to 51+ exposures** — Conversion rates jump significantly after 51 ad exposures (1.89% → 11.63%), suggesting a minimum frequency threshold for effective campaigns.
+
